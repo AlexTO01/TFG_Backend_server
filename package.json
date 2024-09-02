@@ -1,0 +1,20 @@
+{
+  "name": "tfgbackend",
+  "version": "1.0.0",
+  "description": "Backend for a phone app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Trujillo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "mysql2": "^3.10.3",
+    "pg": "^8.12.0",
+    "typeorm": "^0.3.20"
+  }
+}
